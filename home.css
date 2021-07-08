@@ -455,3 +455,18 @@ height: 400px;
       margin-top: 0;
     }
   }
+
+  /*menu*/
+  .burger{
+    position: absolute;
+    cursor: pointer;
+    left: 20px;
+    top: 15px;
+    display: none;
+}
+.lineb{
+    background-color: white;
+    width: 33px;
+    height: 4px;
+    margin: 6px 5px;
+}
