@@ -1,0 +1,95 @@
+<!--This finale is demo--><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 6.5rem;
+    z-index: 1000;
+    background-color: black;
+   
+}
+.nav h2{
+    color: goldenrod;
+}
+#item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#item li{
+    color: white;
+    list-style: none;
+    padding-right: 50px;
+
+}
+
+#item li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    margin-right: 30px;
+}
+#item li a:hover{
+    color: goldenrod;
+}
+#bar{
+    color: crimson;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    display: none;
+}
+
+@media screen and (max-width: 991px)
+{
+    #bar{display: initial;
+    cursor: pointer;}
+    .nav{padding: 1rem 3rem;}
+    #item{
+        flex-direction: column;
+        text-align: center;
+        width: 300px;
+        height: 80vh;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        background-color: rgba(5, 0, 0, 0.801);
+        z-index: 1000000;
+        margin-top: 4.2rem;
+        transition: 0.5s;
+    }
+    #item li{
+        margin-right: 0;
+        padding: 4px 0;
+    }
+}
+
+
+ </style>
+    </head>
+    <body>
+        <div class="nav" id="myNav">
+            <h2>FitBank</h2>
+            <ul id="item">
+            <li> <a href="home.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="ourtraning.html">Our Traning</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+           </ul>
+           <span id= "bar" style="font-size:30px;cursor:pointer" >&#9776;</span> 
+        </div>
+       <div>
+           hellllllowgyh<br><Br>
+       </div>
+      <script src="resp.js" ></script>
+       
+    </body>
+</html>
