@@ -10,10 +10,10 @@
     <div class="nav">
         <h2>FitBank</h2>
         <ul id="item">
-        <li> <a href="home.html">Home</a></li>
-        <li><a href="About.html">About</a></li>
-        <li><a href="ourtraning.html">Our Traning</a></li>
-        <li><a href="Contact.html">Contact</a></li>
+        <li> <a href="home.php">Home</a></li>
+        <li><a href="About.php"  style="color: goldenrod;">About</a></li>
+        <li><a href="ourtraning.php">Our Traning</a></li>
+        <li><a href="Contact.php">Contact</a></li>
        </ul>
        <span id= "bar" style="font-size:30px;cursor:pointer" >&#9776;</span> 
     </div>
