@@ -13,6 +13,7 @@
          $name=$_POST['firstname'];
          $email=$_POST['email'];
          $message=$_POST['Message'];
+         $num=$_POST['num'];
         //  echo $name ."<br>" .$message . "<br>" . $email;
         $servername="localhost";
         $uname="root";
@@ -51,7 +52,7 @@
             
             $mail->isHTML(true);
             $mail->Subject= 'Message Received';
-            $mail->Body='<h3>Name : ' . $name .' <br> Email : ' . $email .'<br> Message : ' . $message .'</h3>';
+            $mail->Body='<h3>Name : ' . $name .' <br> Email : ' . $email .'<br>Number :' . $num .'<br> Message : ' . $message .'</h3>';
            //finally send email
            $mail -> send();
      
@@ -65,7 +66,7 @@
 
             //Closing smtp
             $mail->smtpClose();
-            
+            header("Location: home.html");
 
         } catch(Exception $e){
 

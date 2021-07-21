@@ -272,7 +272,7 @@ a, a:hover {
 }
 
 footer {
-  background: #101011;
+  background: rgb(173, 173, 173);
   color: #fff;
 }
 footer .footer1 p {

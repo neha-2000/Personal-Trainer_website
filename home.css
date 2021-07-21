@@ -656,6 +656,7 @@ features
 .containerc .rowc {
     margin-right: 10px; 
     margin-left: 10px;
+    
 }
 
 .containerc .rowc p{
@@ -680,9 +681,18 @@ features
     display: none;
 }
 
+.conditions2 .LCon .conleft{
+    width: 357px;
+    padding-left: 47px;
+    padding-top: 0px;
+    margin: auto;
 }
-
-
+#conrimg {
+    width: 357px;
+    height: 500px;
+    margin: auto;
+}
+}
 .cs-item {
     text-align: center;
     margin-bottom: 30px;
