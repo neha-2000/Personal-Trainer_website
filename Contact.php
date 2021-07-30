@@ -66,7 +66,7 @@
 
             //Closing smtp
             $mail->smtpClose();
-            header("Location: home.html");
+            header("Location: index.php");
 
         } catch(Exception $e){
 
